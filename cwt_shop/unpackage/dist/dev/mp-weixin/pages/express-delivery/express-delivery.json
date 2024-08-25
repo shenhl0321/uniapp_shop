@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "custom-navi": "/components/custom-navi/custom-navi"
+  }
+}

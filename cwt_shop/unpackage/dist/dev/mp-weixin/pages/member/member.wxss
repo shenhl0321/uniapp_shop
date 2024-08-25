@@ -1,0 +1,66 @@
+page {
+  background-color: #FAFAFA;
+}
+.page-head {
+  background-color: #FFBF77;
+  width: 100%;
+}
+.page-head .custom-navi {
+  font-size: 36rpx;
+  height: 44px;
+  width: 100%;
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  line-height: 44px;
+}
+.page-head .custom-navi image {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  padding: 8rpx;
+  left: 30rpx;
+  top: 5px;
+  border-radius: 50%;
+}
+.main-menu {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+}
+.member-info {
+  width: 100%;
+}
+.member-info image {
+  height: 70rpx;
+  width: 70rpx;
+}
+.member-info .info-item {
+  background-color: #FFFFFF;
+  height: 100rpx;
+  border-bottom: 1px solid #F1F1F1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 5%;
+}
+.member-info .info-item:first-child .info-item-content {
+  height: 70rpx;
+  width: 70rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.member-info .info-item:last-child {
+  border: none;
+}
+.member-info .info-item .info-item-title {
+  font-size: 26rpx;
+  color: #333333;
+}
+.member-info .info-item .info-item-content {
+  color: #666666;
+  font-size: 26rpx;
+}
+

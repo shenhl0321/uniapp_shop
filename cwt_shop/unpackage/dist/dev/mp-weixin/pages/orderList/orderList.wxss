@@ -1,0 +1,1170 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* pages/orderList/orderList.wxss */
+page {
+		background-color: #f4f4f4;
+		color: #333;
+}
+
+	/* 头部菜单 */
+.order-tit {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		height: 100rpx;
+		line-height: 100rpx;
+		background-color: #fff;
+		border-bottom: 2rpx solid #f4f4f4;
+}
+.order-tit text {
+		display: block;
+		font-size: 30rpx;
+		color: 999;
+		width: 100rpx;
+		text-align: center;
+		color: #666;
+}
+.order-tit text.on {
+		border-bottom: 3px solid #FFBF77;
+		color: #FFBF77;
+}
+
+	/*  end 头部菜单 */
+.main {
+		padding-bottom: 45rpx;
+}
+
+	/* 商品列表 */
+.prod-item {
+		background-color: #fff;
+		margin: 40rpx auto 0;
+		font-size: 28rpx;
+		width: 94%;
+		border-radius: 12rpx;
+		box-shadow: 0px 0 8px rgba(148, 148, 148, 0.17);
+}
+.prod-item .item-cont .prod-pic image {
+		width: 180rpx;
+		height: 180rpx;
+}
+.prod-item .order-num {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0 30rpx;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 80rpx;
+		font-size: 28rpx;
+}
+.order-num text {
+		vertical-align: middle;
+}
+.order-num .more {
+		display: inline-block;
+		width: 12rpx;
+		vertical-align: middle;
+		margin-left: 15rpx;
+}
+.prod-item .item-cont .categories {
+		white-space: nowrap;
+}
+.prod-item .item-cont {
+		display: flex;
+		align-items: center;
+		width: 93%;
+		margin: 0 auto;
+		padding: 0rpx 0 30rpx;
+		border-radius: 10rpx;
+}
+.prod-item .item-cont .prod-pic {
+		font-size: 0;
+		display: inline-block;
+		width: 160rpx;
+		height: 160rpx;
+		overflow: hidden;
+		background: #fff;
+		margin-right: 16rpx;
+}
+.prod-item .item-cont .prod-pic image {
+		width: 100%;
+		height: 100%;
+		border-radius: 10rpx;
+}
+.prod-item .item-cont .prod-info {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		font-size: 28rpx;
+		width: 70%;
+		position: relative;
+		height: 160rpx;
+}
+.prod-item .item-cont .prod-info .prodname-price {
+		font-size: 28rpx;
+		line-height: 36rpx;
+		max-height: 86rpx;
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+}
+.prodname-price .prodprice {
+		padding-top: 20rpx;
+		color: #444;
+		padding-left: 15rpx;
+}
+.prod-item .item-cont .prod-info .prodname-price .prodprice .small {
+		font-size: 26rpx;
+}
+.prod-item .item-cont .prod-info .prodname-price .prodprice .bignum {
+		font-size: 32rpx;
+}
+.prod-item .item-cont .prod-info .prod-info-cont {
+		color: #999;
+		line-height: 40rpx;
+		margin-top: 10rpx;
+		font-size: 26rpx;
+		display: flex;
+		justify-content: space-between;
+}
+.prod-item .total-num {
+		width: 93%;
+		margin: 0 auto;
+		text-align: right;
+		font-size: 28rpx;
+		border-top: 2rpx solid #f5f5f5;
+		padding: 25rpx 10rpx 5rpx 0;
+		box-sizing: border-box;
+}
+.prod-item .price-nums .prodprice {
+		color: #333;
+		position: absolute;
+		bottom: 0;
+}
+.prod-item .price-nums .prodcount {
+		position: absolute;
+		bottom: 5rpx;
+		right: 0;
+		color: #999;
+		font-family: verdana;
+}
+.prod-item .total-num .prodprice {
+		display: inline-block;
+		color: #444;
+}
+.prod-item .total-num .prodcount {
+		margin-right: 20rpx;
+}
+.prod-item .prod-foot {
+		padding: 20rpx 30rpx 25rpx;
+}
+.prod-item .prod-foot .total {
+		font-size: 25rpx;
+		margin-bottom: 20rpx;
+		padding-bottom: 20rpx;
+		border-bottom: 2rpx solid #e9eaec;
+}
+.transferfree {
+		color: #A5A5A5;
+		padding-left: 18rpx;
+}
+.prod-item .prod-foot .btn {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+}
+.other-button-hover {
+		background-color: blue;
+}
+.button-hover {
+		background-color: red;
+}
+
+	/** 添加自定义button点击态样式类**/
+.button-hover {
+		background-color: blue;
+}
+.button {
+		margin-left: 10px;
+		font-size: 30rpx;
+		background: #fff;
+		padding: 0 30rpx;
+		height: 62rpx;
+		line-height: 65rpx;
+		text-align: center;
+		border-radius: 80rpx;
+		border: 1px solid #e1e1e1;
+		vertical-align: middle;
+		color: #666;
+}
+.button.warn {
+		color: #FFBF77;
+		border-color: #FFBF77;
+}
+.button.warn2 {
+		color: #fff;
+		border-color: #FFBF77;
+		background: #FFBF77;
+}
+.button.yellowBack {
+		color: #ffffff;
+		border-color: #FFBF77;
+		background-color: #FFBF77;
+}
+
+	/* end 商品列表 */
+.empty {
+		font-size: 28rpx;
+		margin-top: 100rpx;
+		text-align: center;
+		color: #999;
+		height: 300rpx;
+		line-height: 300rpx;
+}
+
+	/* 根据状态显示不同的颜色 */
+.order-state .order-sts.orange {
+		color: #FFBF77;
+}
+.order-state .order-sts {
+		color: #FFBF77;
+}
+.order-state .order-sts.gray {
+		color: #999;
+}
+.order-state .gray {
+		color: #FFBF77;
+}
+.refundPop {
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 9;
+}
+.refundPop .hide {
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.3);
+}
+.refundPop .refundBox {
+		height: 700rpx;
+		width: 100%;
+		background-color: #ffffff;
+		position: fixed;
+		bottom: 0;
+}
+.refundPop .refundBox .refund-tit {
+		color: #535353;
+		font-size: 30rpx;
+		width: 100%;
+		text-align: center;
+		height: 60rpx;
+		line-height: 60rpx;
+		padding-top: 20rpx;
+}
+.refundPop .refundBox .picker {
+		margin-top: 20rpx;
+}
+.refundPop .refundBox label {
+		display: flex;
+		font-size: 28rpx;
+		padding: 20rpx 0 20rpx 40rpx;
+		border-bottom: 1px solid #F8F8F8;
+		color: #959595;
+}
+
+	/* .refundPop .refundBox label:last-child{
+  border: none;
+} */
+
+	/* .refundPop .refundBox radio .wx-radio-input{ 
+  自定义样式....
+    height: 24rpx; 
+    width: 24rpx;
+    margin-top: -4rpx;
+    border-radius: 50%;
+    border: 1rpx solid #999;
+    background: transparent;
+} */
+.refundPop .refundBox radio .wx-radio-input.wx-radio-input-checked {
+		border-color: #fff;
+		background: #fff;
+}
+
+	/* 自定义样式.... */
+.refundPop .refundBox radio .wx-radio-input {
+		height: 26rpx;
+		/* 对勾大小 */
+		width: 26rpx;
+		margin-top: -4rpx;
+		border-radius: 50%;
+		border: 2rpx solid #999;
+		background: transparent;
+}
+
+	/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+.refundPop .refundBox radio .wx-radio-input.wx-radio-input-checked::before {
+		border-radius: 50%;
+		/* 圆角 */
+		width: 28rpx;
+		/* 选中后对勾大小，不要超过背景的尺寸 */
+		height: 28rpx;
+		/* 选中后对勾大小，不要超过背景的尺寸 */
+		line-height: 28rpx;
+		/* 选中后对勾的垂直方向，等于radio的高度 */
+		text-align: center;
+		font-size: 24rpx;
+		/* 对勾大小 30rpx */
+		color: #fff;
+		/* 对勾颜色 白色 */
+		background: #FFBF77;
+		transform: translate(-50%, -50%) scale(1);
+		-webkit-transform: translate(-50%, -50%) scale(1);
+}
+.refundPop .refundBox .picker .reason-tit {
+		margin-left: 20rpx;
+}
+.refundSubmit-btn {
+		height: 80rpx;
+		width: 90%;
+		background-color: #FFBF77;
+		color: #ffffff;
+		text-align: center;
+		line-height: 80rpx;
+		border-radius: 50rpx;
+		margin-top: 70rpx;
+		position: fixed;
+		bottom: 40rpx;
+		left: 5%;
+}
+.prodname {
+		padding-top: 20rpx;
+}
+.imagePathBox {
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 2000;
+}
+.mask {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+}
+.shengcheng {
+		width: 90%;
+		height: 950rpx;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		z-index: 2001;
+		-webkit-transform: translate(-50%, -50%);
+		        transform: translate(-50%, -50%);
+}
+.baocun {
+		display: block;
+		width: 80%;
+		height: 80rpx;
+		padding: 0;
+		line-height: 80rpx;
+		text-align: center;
+		position: fixed;
+		bottom: 50rpx;
+		left: 10%;
+		background: #FFBF77;
+		color: #fff;
+		font-size: 32rpx;
+		border-radius: 44rpx;
+		z-index: 10000;
+}
+.shareFriends {
+		display: block;
+		width: 80%;
+		height: 104rpx;
+		padding: 0;
+		line-height: 80rpx;
+		text-align: center;
+		position: fixed;
+		bottom: 50rpx;
+		left: 10%;
+		background: #45be8d;
+		color: rgb(211, 208, 208);
+		font-size: 32rpx;
+		border-radius: 44rpx;
+}
+button[class="baocun"]::after {
+		border: 0;
+}
+

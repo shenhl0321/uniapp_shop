@@ -1,0 +1,232 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pages/promotion-prod/promotion-prod.wxss */
+page {
+	background-color: #F7F4F8;
+}
+.mainMenu {
+	box-sizing: border-box;
+	height: 90rpx;
+	width: 100%;
+	padding: 0 5%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	line-height: 90rpx;
+	font-size: 28rpx;
+	color: #666;
+}
+.mainMenu .active {
+	color: #FFBF77;
+	height: 100%;
+	height: 84rpx;
+	line-height: 84rpx;
+	border-bottom: 6rpx solid #FFBF77;
+}
+.container {
+	box-sizing: border-box;
+	padding: 0 3% 30rpx;
+}
+.container .member {
+	width: 100%;
+	background-color: #fff;
+	margin-top: 30rpx;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 26rpx;
+	position: relative;
+	border-radius: 12rpx;
+}
+.container .member .leftbar {
+	display: flex;
+}
+.container .member .member-head {
+	margin: 18rpx;
+}
+.container .member image {
+	display: block;
+	width: 140rpx;
+	height: 140rpx;
+}
+.container .member-info>view {
+	margin-top: 30rpx;
+}
+.container .member-info .nickname {
+	color: #333;
+	font-size: 30rpx;
+}
+.container .member-info .orders {
+	color: #9D9A9D;
+}
+.container .member .member-state {
+	text-align: right;
+	margin-right: 20rpx;
+}
+.container .member .member-state>view {
+	margin: 10rpx 0;
+}
+.container .member .member-state .state {
+	color: #A8A5A8;
+	font-size: 24rpx;
+}
+.container .member .member-state .commssion {
+	color: #D31D25;
+	font-size: 32rpx;
+}
+.none {
+	height: 100%;
+	width: 100%;
+}
+.none .norecords {
+	position: absolute;
+	right: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	width: 200rpx;
+	text-align: center;
+	color: #A5A2A6;
+	font-size: 30rpx;
+}
+

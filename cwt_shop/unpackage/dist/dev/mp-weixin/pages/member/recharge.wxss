@@ -1,0 +1,119 @@
+button {
+  padding: 0;
+  text-align: unset;
+  line-height: unset;
+  /* text-decoration: underline; */
+  border-radius: unset;
+  overflow: unset;
+  background-color: unset;
+  cursor: unset;
+}
+button::after {
+  border: none;
+}
+.page-head {
+  background-image: url(https://images.51xeld.com/2021/01/81944b78deb346e29f1f416befa54f4b.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: -140rpx;
+  width: 100%;
+  height: 790rpx;
+}
+.page-head .custom-navi {
+  font-size: 36rpx;
+  height: 44px;
+  width: 100%;
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  line-height: 44px;
+}
+.page-head .custom-navi image {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  padding: 10rpx;
+  left: 30rpx;
+  border: 1px solid #FFDBB5;
+  top: 5px;
+  border-radius: 50%;
+}
+.page-head .account {
+  color: #FFFFFF;
+  padding-left: 50rpx;
+  font-size: 32rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.page-head .account text {
+  font-size: 50rpx;
+}
+.page-head .banner-card {
+  background-color: #FFFFFF;
+  width: 94%;
+  height: 600rpx;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  box-shadow: 0px 10px 20px 1px rgba(253, 176, 94, 0.26);
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 5%;
+  color: #666666;
+}
+.page-head .banner-card .banner-title {
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #444444;
+}
+.page-head .banner-card .amount-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.page-head .banner-card .amount-card .amount-item {
+  width: 30%;
+  height: 140rpx;
+  position: relative;
+  text-align: center;
+  line-height: 140rpx;
+  border: 1px solid #e1e1e1;
+  border-radius: 12rpx;
+  margin-bottom: 40rpx;
+}
+.page-head .banner-card .amount-card .amount-item image {
+  position: absolute;
+  height: 46rpx;
+  width: 46rpx;
+  right: 0;
+  top: 0;
+}
+.page-head .banner-card .amount-card .choosen {
+  background: #FFFBF7;
+  border: 1px solid #FFC382;
+}
+.page-head .banner-card .recharge-btn {
+  height: 80rpx;
+  width: 100%;
+  border-radius: 50rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: #FCB05D;
+  color: #FFFFFF;
+}
+.recharge-description {
+  margin-top: 60rpx;
+  font-size: 28rpx;
+  color: #999999;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 5%;
+}
+.recharge-description .des-title {
+  margin-bottom: 20rpx;
+}
+.recharge-description .des-item {
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
+  line-height: 45rpx;
+}
+

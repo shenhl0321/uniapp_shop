@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "custom-navi": "/components/custom-navi/custom-navi",
+    "shop-cart-tab-toutiao": "/pages/category/shop-cart-tabbar-toutiao"
+  }
+}

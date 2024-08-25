@@ -1,0 +1,294 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pages/groupbuy-details/groupbuy-details.wxss */
+.groupbuy-info {
+	width: 100%;
+	background-color: #ffffff;
+	margin-top: 30rpx;
+	padding-top: 10rpx;
+}
+.groupbuy-info .line1 {
+	width: 100%;
+	text-align: center;
+	color: #FF7E49;
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 28rpx;
+}
+.groupbuy-info .line2 {
+	color: #888888;
+	width: 100%;
+	text-align: center;
+	font-size: 24rpx;
+}
+.groupbuy-info .line3 {
+	display: flex;
+	justify-content: center;
+	font-size: 60rpx;
+	color: #FF7E49;
+	height: 80rpx;
+	line-height: 80rpx;
+	align-items: center;
+	margin-top: 12rpx;
+}
+.groupbuy-info .head-pic-content {
+	position: relative;
+	display: flex;
+	left: 10rpx;
+	top: 5rpx;
+}
+.groupbuy-info .head-pic-content .head-pic {
+	overflow: hidden;
+	height: 60rpx;
+	width: 60rpx;
+	border: 1px solid #FF7E49;
+	border-radius: 50%;
+}
+.groupbuy-info .head-pic-content .head-pic image {
+	height: 60rpx;
+	width: 60rpx;
+}
+.groupbuy-info .head-pic-content .head-pic:last-child {
+	position: relative;
+	left: -20rpx;
+	background-color: #f1f1f1;
+}
+.groupbuy-info .line4 {
+	height: 60rpx;
+	line-height: 60rpx;
+	width: 60%;
+	background-color: #FFB45F;
+	color: #ffffff;
+	margin: 0 auto;
+	border-radius: 40rpx;
+	text-align: center;
+	margin-top: 30rpx;
+}
+.groupbuy-info .line5 {
+	width: 100%;
+	text-align: center;
+	color: #FF7746;
+	font-size: 24rpx;
+	margin: 20rpx 0 0;
+	padding-bottom: 20rpx;
+}
+.prod-content {
+	width: 100%;
+	height: 160rpx;
+	display: flex;
+	align-items: center;
+	font-size: 26rpx;
+}
+.prod-content .prod-img {
+	height: 120rpx;
+	width: 120rpx;
+	margin: 20rpx;
+	background-color: #f1f1f1;
+	border: 1px solid #f1f1f1;
+}
+.prod-content .prod-name-sku {
+	font-size: 24rpx;
+	width: calc(100% - 360rpx);
+}
+.prod-content .prod-name-sku view {
+	margin: 12rpx 0;
+}
+.prod-content .prod-name-sku .sku {
+	color: #999999;
+}
+.prod-content .price-count {
+	width: 200rpx;
+	text-align: right;
+	box-sizing: border-box;
+	padding-right: 20rpx;
+}
+.prod-content .price-count view {
+	margin: 12rpx 0;
+}
+.pay-amount {
+	width: 96%;
+	text-align: right;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-top: 1px solid #f1f1ff;
+}
+.common {
+	height: 60rpx;
+	line-height: 60rpx;
+	width: 60%;
+	margin: 80rpx auto;
+	border-radius: 40rpx;
+	text-align: center;
+	font-size: 28rpx;
+}
+.invite-btn {
+	background-color: #FFB45F;
+	color: #ffffff;
+}
+.go-home {
+	border: 1px solid #FFB45F;
+	color: #FFB45F;
+}
+.buy-again {
+	border: 1px solid #FFB45F;
+	color: #FFB45F;
+}
+

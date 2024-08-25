@@ -1,0 +1,80 @@
+.page-head {
+  background-color: #FFBF77;
+  width: 100%;
+}
+.page-head .custom-navi {
+  font-size: 36rpx;
+  height: 44px;
+  width: 100%;
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  line-height: 44px;
+}
+.page-head .custom-navi image {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  padding: 8rpx;
+  left: 30rpx;
+  top: 10px;
+  border-radius: 50%;
+}
+.main-menu {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 10px 10px 0px rgba(226, 226, 226, 0.26);
+  color: #666666;
+}
+.main-menu .active {
+  border-bottom: 3px solid #FFBF77;
+}
+.coupon-list {
+  width: 100%;
+  margin-top: 40rpx;
+}
+.coupon-list .coupon {
+  width: 94%;
+  height: 224rpx;
+  margin: 0 auto 30rpx;
+  background-image: url(https://images.51xeld.com/2021/02/f77195578b43401486214ddceb03f609.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  color: #FFFFFF;
+}
+.coupon-list .coupon .coupon-head {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding-bottom: 30rpx;
+}
+.coupon-list .coupon .coupon-head .amount text:first-child {
+  font-size: 40rpx;
+}
+.coupon-list .coupon .coupon-head .amount text:last-child {
+  font-size: 90rpx;
+}
+.coupon-list .coupon .coupon-head .coupon-state {
+  border: 1px solid #FFFBF7;
+  padding: 6rpx 30rpx;
+  border-radius: 40rpx;
+}
+.coupon-list .coupon .coupon-body {
+  box-sizing: border-box;
+  padding: 60rpx 0 0 40rpx;
+}
+.coupon-list .coupon .coupon-body .des {
+  font-size: 34rpx;
+}
+.coupon-list .coupon .coupon-body .valid-period {
+  margin-top: 30rpx;
+  font-size: 22rpx;
+}
+

@@ -1,0 +1,84 @@
+.page-head {
+  background-image: url(https://images.51xeld.com/2021/01/81944b78deb346e29f1f416befa54f4b.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -240rpx;
+  width: 100%;
+  height: 300rpx;
+}
+.page-head .custom-navi {
+  font-size: 36rpx;
+  height: 44px;
+  width: 100%;
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  line-height: 44px;
+}
+.page-head .custom-navi image {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  padding: 8rpx;
+  left: 30rpx;
+  top: 5px;
+  border-radius: 50%;
+}
+.page-head .banner-card {
+  background-color: #FFFFFF;
+  width: 96%;
+  height: 220rpx;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  box-shadow: 0px 10px 20px 1px rgba(253, 176, 94, 0.26);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 6%;
+}
+.page-head .banner-card .account {
+  font-size: 28rpx;
+}
+.page-head .banner-card .account view:first {
+  color: #666666;
+}
+.page-head .banner-card .account view:last-child {
+  color: #333333;
+  font-size: 42rpx;
+  margin-top: 16rpx;
+}
+.page-head .banner-card .incharge-btn {
+  padding: 10rpx 30rpx;
+  border: 1px solid #FDB160;
+  color: #FDB160;
+  border-radius: 40rpx;
+}
+.barcode,
+.qrcode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 310rpx;
+  margin-top: 90rpx;
+  font-size: 50rpx;
+  color: #666666;
+}
+.barcode image,
+.qrcode image {
+  height: 220rpx;
+  margin-bottom: 20rpx;
+}
+.qrcode {
+  height: 460rpx;
+  font-size: 30rpx;
+  margin-top: 40rpx;
+}
+.qrcode image {
+  height: 440rpx;
+}
+.barcode {
+  padding-top: 50rpx;
+}
+

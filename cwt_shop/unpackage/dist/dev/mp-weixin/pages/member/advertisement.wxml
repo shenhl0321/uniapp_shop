@@ -1,0 +1,1 @@
+<view><custom-navi vue-id="4ac5a2dd-1" naviData="{{naviData}}" bind:__l="__l" vue-slots="{{['default']}}">海报</custom-navi><image class="back-img" src="https://images.51xeld.com/2021/06/478aff20168c4852ba56968748ea76fe.png" mode="widthFix"></image><view data-event-opts="{{[['tap',[['goThePage',['/pages/member/recharge']]]]]}}" class="btn" bindtap="__e">去充值</view></view>

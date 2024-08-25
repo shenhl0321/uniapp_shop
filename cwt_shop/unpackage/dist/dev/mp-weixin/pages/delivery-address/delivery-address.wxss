@@ -1,0 +1,267 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* pages/delivery-address/delivery-address.wxss */
+page {
+		background-color: #fff;
+		/* border-top: 2rpx solid #e9eaec; */
+		padding-bottom: 150rpx;
+}
+.main {
+		padding-bottom: 200rpx;
+		background-color: #ffffff;
+}
+.empty {
+		position: absolute;
+		top: 40%;
+		left: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		        transform: translate(-50%, -50%);
+		font-size: 30rpx;
+		color: #353235;
+		width: 100%;
+}
+.empty .img {
+		margin: 0 auto;
+		width: 70%;
+}
+.empty image {
+		max-width: 100%;
+}
+.addr-item {
+		font-size: 30rpx;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+		padding: 20rpx 15rpx;
+		background-color: #ffffff;
+		border-bottom: 1px solid #F7F5F4;
+}
+.addr-item .addr-info>view {
+		color: #353235;
+		font-size: 28rpx;
+}
+.receiver-name-phone {
+		width: 22%;
+		box-sizing: border-box;
+		padding-left: 13rpx;
+}
+.address {
+		width: 78%;
+}
+.receiver-name {
+		width: 100%;
+		height: 52rpx;
+		line-height: 52rpx;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+}
+.receiver-phone {
+		height: 52rpx;
+		line-height: 52rpx;
+		font-size: 30rpx;
+}
+.addr-item .addr-info .gray {
+		width: 100%;
+		/* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+		color: #939093;
+		line-height: 40rpx;
+}
+.addr-item .addr-info .redblock {
+		width: 60rpx;
+		height: 40rpx;
+		line-height: 38rpx;
+		text-align: center;
+		border: 1px solid #EF2929;
+		color: #EF2929;
+		font-size: 24rpx;
+		border-radius: 3px;
+		display: block;
+		box-sizing: border-box;
+}
+.addr-item image {
+		width: 36rpx;
+		height: 36rpx;
+		vertical-align: middle;
+		margin-left: 13rpx;
+}
+.btnbox {
+		position: fixed;
+		bottom: 40rpx;
+		width: 100%;
+		height: 88rpx;
+}
+.submitbtn {
+		height: 80rpx;
+		width: 90%;
+		color: #ffffff;
+		background-color: #FFC078;
+		border-radius: 46rpx;
+		font-size: 32rpx;
+		text-align: center;
+		line-height: 80rpx;
+		margin: 0 auto;
+}
+.empty .txt {
+		text-align: center;
+		color: #a1adbd;
+		padding-top: 35rpx;
+}
+.addr-info {
+		width: 85%;
+		display: flex;
+		align-items: center;
+}
+

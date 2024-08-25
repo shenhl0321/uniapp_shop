@@ -1,0 +1,268 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: content;
+  align-items: center;
+  padding-bottom: 20rpx;
+}
+.flex-spaceB {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-spaceA {
+  display: flex;
+  align-items: center;
+}
+.flex-spaceA .fly {
+  padding: 0 7rpx 9rpx 10rpx;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-content {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding-bottom: 106rpx;
+}
+.user-navigation {
+  position: fixed;
+  top: 0;
+}
+.backImage {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.userInfo-inviteCode {
+  color: #FFFFFF;
+  justify-content: flex-start;
+  font-size: 28rpx;
+  position: relative;
+}
+.headphoto {
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-left: 30rpx;
+  overflow: hidden;
+  border: 3px solid #ffd6a9;
+}
+.photoimage {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.nickname-code {
+  margin-left: 20rpx;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 360rpx;
+  font-size: 24rpx;
+}
+.nickname {
+  font-size: 32rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.invitationBar {
+  color: #FEE0C1;
+}
+.copyBtn {
+  font-size: 24rpx;
+  margin-left: 24rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  width: 70rpx;
+  border: 1px solid #FEE0C1;
+  border-radius: 16rpx;
+  color: #FEE0C1;
+  text-align: center;
+}
+.inviteBtn {
+  width: 170rpx;
+  height: 48rpx;
+  border: 1px solid #FEE0C1;
+  border-radius: 24rpx;
+  position: absolute;
+  color: #FEE0C1;
+  right: 30rpx;
+  top: 40rpx;
+  font-size: 26rpx;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0 0 0 18rpx;
+  line-height: 48rpx;
+  text-align: center;
+}
+button::after {
+  border: 0;
+}
+.flyimage {
+  width: 26rpx;
+  vertical-align: middle;
+}
+
+/* .invite{
+  height: 48rpx;
+}
+.invite text{
+  vertical-align: middle;
+} */
+.account {
+  margin: 20rpx auto 0;
+  color: #FFFFFF;
+  font-size: 40rpx;
+  width: 90%;
+  height: 120rpx;
+}
+.account-item {
+  width: 100rpx;
+  text-align: center;
+}
+.account-item .title {
+  font-size: 24rpx;
+  text-align: center;
+  color: #FFDCA7;
+}
+.account-item .number {
+  text-align: center;
+}
+.account-item .title:after {
+  content: '';
+  border-right: 1px solid #FCC281;
+  height: 30rpx;
+  position: relative;
+  left: 66rpx;
+  bottom: 24rpx;
+}
+.myorders {
+  width: 94%;
+  margin: 0 auto 10rpx;
+  border-radius: 20rpx;
+  background-color: white;
+  box-shadow: 0 0 6px #ffdfbd;
+  font-size: 24rpx;
+  padding-bottom: 0;
+}
+.myorders-title {
+  width: 92%;
+  height: 86rpx;
+  line-height: 86rpx;
+  font-size: 30rpx;
+  font-weight: bolder;
+  color: #666;
+  border-bottom: 1px solid #f5f5f5;
+}
+.myorders-title .myorder {
+  font-weight: 500;
+}
+.moreorder {
+  height: 86rpx;
+  line-height: 86rpx;
+  color: #B2B2B2;
+  font-size: 26rpx;
+  font-weight: normal;
+}
+.orderstitle-moreimage {
+  width: 14rpx;
+  vertical-align: middle;
+}
+.orderitems {
+  width: 100%;
+  height: 150rpx;
+  color: #737373;
+  justify-content: space-between;
+}
+.orderitem {
+  width: 130rpx;
+  height: 100rpx;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20rpx 0;
+  position: relative;
+}
+.order-icon-image {
+  width: 46rpx;
+  vertical-align: middle;
+}
+.order-icon-image:nth-child(1) {
+  height: 41.5rpx;
+}
+.order-icon-image:nth-child(2) {
+  height: 44rpx;
+}
+.order-icon-image:nth-child(3) {
+  height: 38.5rpx;
+}
+.order-icon-image:nth-child(4) {
+  height: 44rpx;
+}
+.order-icon-image:nth-child(5) {
+  height: 47rpx;
+}
+.orderitem .number {
+  height: 26rpx;
+  width: 26rpx;
+  line-height: 26rpx;
+  font-size: 24rpx;
+  text-align: center;
+  color: #FFAF50;
+  border-radius: 50%;
+  border: 1px solid #FFAF50;
+  position: absolute;
+  top: 16rpx;
+  right: 30rpx;
+  background-color: white;
+  z-index: 99;
+}
+.menuitem {
+  padding: 30rpx 0;
+  width: 90%;
+  border-bottom: 1px solid #F9F9F9;
+  color: #777777;
+  font-size: 28rpx;
+  padding-right: 10rpx;
+}
+.menu-icon {
+  margin-right: 16rpx;
+}
+.menu-icon-image {
+  width: 44rpx;
+  vertical-align: middle;
+}
+.menu-icon-image:nth-child(1) {
+  height: 46rpx;
+}
+.menu-icon-image:nth-child(2) {
+  height: 44rpx;
+}
+.menu-icon-image:nth-child(3) {
+  height: 41rpx;
+}
+.menu-icon-image:nth-child(4) {
+  height: 44rpx;
+}
+.menu-icon-image:nth-child(5) {
+  height: 44rpx;
+}
+.menu-icon-image:nth-child(6) {
+  height: 32rpx;
+}
+.menu-title {
+  vertical-align: middle;
+}
+.menu-more-image {
+  width: 14rpx;
+}
+.more text {
+  color: #999;
+}
+

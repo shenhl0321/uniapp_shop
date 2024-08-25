@@ -1,0 +1,254 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pages/promotion-order/promotion-order.wxss */
+page {
+	background-color: #F7F4F8;
+}
+.mainMenu {
+	box-sizing: border-box;
+	height: 90rpx;
+	width: 100%;
+	padding: 0 5%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #fff;
+	line-height: 90rpx;
+	font-size: 26rpx;
+	color: #666;
+}
+.mainMenu .active {
+	color: #FFBF77;
+	height: 100%;
+	height: 84rpx;
+	line-height: 84rpx;
+	border-bottom: 6rpx solid #FFBF77;
+}
+.container {
+	box-sizing: border-box;
+	padding: 0 4% 20rpx;
+}
+.order {
+	width: 100%;
+	background-color: #fff;
+	margin-top: 30rpx;
+	border-radius: 12rpx;
+}
+.order .order-head {
+	font-size: 30rpx;
+	line-height: 90rpx;
+	height: 90rpx;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #F7F4F8;
+	box-sizing: border-box;
+	padding: 0 3%;
+}
+.order .order-head .type {
+	color: #FFBF7A;
+	font-size: 28rpx;
+}
+.order .order-body {
+	display: flex;
+	height: 200rpx;
+	align-items: center;
+	border-bottom: 1px solid #F7F4F8;
+	font-size: 26rpx;
+	margin-left: 3%;
+	color: #777478;
+}
+.order .order-body .prodinfo>view {
+	margin: 60rpx 0 60rpx 40rpx;
+}
+.order .order-body image {
+	width: 160rpx;
+	height: 160rpx;
+}
+.order .order-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80rpx;
+	font-size: 28rpx;
+	box-sizing: border-box;
+	padding: 0 3%;
+	color: #A7A4A7;
+}
+.order .order-footer .order-commission .commission-num {
+	font-size: 32rpx;
+	color: #666;
+}
+.none {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.none image {
+	width: 80%;
+	margin: 30% auto 0;
+}
+.none .norecords {
+	position: absolute;
+	top: 87%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width: 200rpx;
+	color: #999;
+	font-size: 28rpx;
+	text-align: center;
+}
+

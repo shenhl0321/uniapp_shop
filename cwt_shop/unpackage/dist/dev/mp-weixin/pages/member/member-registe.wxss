@@ -1,0 +1,151 @@
+#content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: unset;
+  line-height: unset;
+  border-radius: unset;
+  background-color: #ffffff;
+  border: none;
+  text-align: unset;
+}
+#content::after {
+  border: none;
+}
+image {
+  height: 30rpx;
+  width: 30rpx;
+}
+.page-head {
+  background-image: url(https://images.51xeld.com/2021/01/81944b78deb346e29f1f416befa54f4b.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -170rpx;
+  width: 100%;
+}
+.page-head .custom-navi {
+  font-size: 36rpx;
+  height: 44px;
+  width: 100%;
+  color: #FFFFFF;
+  position: relative;
+  text-align: center;
+  line-height: 44px;
+}
+.page-head .custom-navi image {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  padding: 8rpx;
+  left: 30rpx;
+  border: 1px solid #FFDBB5;
+  top: 5px;
+  border-radius: 50%;
+}
+.page-head .banner-card {
+  background-image: url(https://images.51xeld.com/2021/01/c71f4d6fd7e745e19aa7472aa87b3a4b.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 450rpx;
+}
+.registe-form {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8%;
+  color: #666666;
+}
+.registe-form .form-title {
+  text-align: center;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #666666;
+}
+.registe-form .form-item {
+  width: 100%;
+  display: flex;
+  font-size: 26rpx;
+  height: 100rpx;
+  align-items: center;
+  position: relative;
+}
+.registe-form .form-item .label {
+  width: 160rpx;
+  font-size: 30rpx;
+}
+.registe-form .form-item .label text {
+  display: inline-block;
+}
+.registe-form .form-item .label text:first-child {
+  width: 120rpx;
+  text-align: justify;
+  text-align-last: justify;
+}
+.registe-form .form-item .input {
+  width: calc(100% - 160rpx);
+}
+.registe-form .form-item .input input {
+  height: 70rpx;
+  border: 1px solid #CDCDCD;
+  border-radius: 12rpx;
+  padding-left: 30rpx;
+}
+.registe-form .mobile .label > text:first-child::before,
+.registe-form .check-code .label > text:first-child::before {
+  content: '*';
+  color: #F24545;
+  position: absolute;
+  left: -20rpx;
+  top: 32rpx;
+  font-size: 36rpx;
+}
+.registe-form .check-code .input {
+  width: 240rpx;
+}
+.registe-form .check-code .get-code-btn {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200rpx;
+  border: 1px solid #FCB05E;
+  border-radius: 12rpx;
+  color: #FCB05E;
+  line-height: 70rpx;
+  height: 70rpx;
+  margin-left: 20rpx;
+  text-align: center;
+}
+.registe-form .check-code .get-code-btn-timing {
+  color: #d1d1d1;
+}
+.registe-form .gender .checkbox .radio image {
+  height: 24rpx;
+  width: 24rpx;
+  margin-right: 8rpx;
+}
+.registe-form .gender .checkbox .radio:last-child {
+  margin-left: 40rpx;
+}
+.registe-form .date {
+  position: relative;
+}
+.registe-form .date image {
+  position: absolute;
+  right: 34rpx;
+  top: 36rpx;
+}
+.confirm-btn {
+  width: 90%;
+  height: 80rpx;
+  background: #FFB873;
+  border-radius: 60rpx;
+  margin: 0 auto;
+  font-size: 30rpx;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 80rpx;
+  position: fixed;
+  bottom: 60rpx;
+  left: 5%;
+}
+

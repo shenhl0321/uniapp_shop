@@ -1,0 +1,179 @@
+{
+    "name" : "彩味塔",
+    "appid" : "__UNI__AFDF966",
+    "description" : "",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {
+            "Barcode" : {},
+            "Geolocation" : {},
+            "FaceID" : {},
+            "Camera" : {},
+            "iBeacon" : {},
+            "UIWebview" : {},
+            "Messaging" : {}
+        },
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            "ios" : {},
+            "sdkConfigs" : {
+                "geolocation" : {
+                    "system" : {
+                        "__platform__" : [ "ios", "android" ]
+                    }
+                },
+                "maps" : {
+                    "amap" : {
+                        "name" : "",
+                        "appkey_ios" : "",
+                        "appkey_android" : ""
+                    }
+                },
+                "oauth" : {
+                    "univerify" : {},
+                    "weixin" : {
+                        "appid" : "",
+                        "UniversalLinks" : ""
+                    }
+                },
+                "payment" : {
+                    "appleiap" : {},
+                    "alipay" : {
+                        "__platform__" : [ "ios", "android" ]
+                    },
+                    "weixin" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appid" : "",
+                        "UniversalLinks" : ""
+                    }
+                }
+            },
+            "splashscreen" : {
+                "androidStyle" : "common"
+            }
+        },
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "wx33a7572beb3a17f1",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "你的位置信息将用于小程序位置接口的效果展示"
+            }
+        },
+        "uniStatistics" : {
+            "enable" : true
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-baidu" : {
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        },
+        "appid" : "tt510d27b0ce35590401",
+        "setting" : {
+            "urlCheck" : false
+        }
+    },
+    "h5" : {
+        "optimization" : {
+            "treeShaking" : {
+                "enable" : true
+            }
+        },
+        "sdkConfigs" : {
+            "maps" : {
+                "qqmap" : {
+                    "key" : "2JGBZ-VMBLQ-DWN54-GURL6-N5AJZ-XBFYQ"
+                }
+            }
+        },
+        "devServer" : {
+            "port" : 8080,
+            "https" : false,
+            "proxy" : {
+                "/api" : {
+                    "target" : "http://192.168.1.19:8026", //请求的目标域名
+                    "changeOrigin" : true,
+                    "secure" : false,
+                    "pathRewrite" : {
+                        //使用代理； 告诉他你这个连接要用代理
+                        "^/api" : "/"
+                    }
+                }
+            }
+        },
+        "router" : {
+            "mode" : "history"
+        },
+        "domain" : "http://192.168.1.19:8026",
+        "title" : "彩味塔",
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "uniStatistics" : {
+        "enable" : false,
+        "version" : "1"
+    },
+    "mp-qq" : {
+        "uniStatistics" : {
+            "enable" : false
+        }
+    }
+}

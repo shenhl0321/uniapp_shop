@@ -1,0 +1,319 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pages/spread/spread.wxss */
+page {
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+.contentwrap {
+	background-color: #F5F5F5;
+	position: relative;
+	width: 100%;
+	/* z-index: -1; */
+}
+.contentwrap .wrap {
+	position: relative;
+	width: 100%;
+	height: 350rpx;
+}
+.background {
+	height: 200rpx;
+	width: 100%;
+	background-color: #FFBF77;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.userInfoBox {
+	position: absolute;
+	top: 30rpx;
+	left: 3%;
+	z-index: 10;
+	width: 94%;
+	height: 300rpx;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-radius: 16rpx;
+	font-size: 26rpx;
+	padding-top: 20rpx;
+	box-shadow: 0 0 6p rgba(148, 148, 148, 0.17);
+}
+.userInfo {
+	display: flex;
+	align-items: center;
+	position: relative;
+	height: 150rpx;
+}
+.headPhoto {
+	height: 120rpx;
+	width: 120rpx;
+	border-radius: 50%;
+	background-color: #ffffff;
+	margin-left: 30rpx;
+	overflow: hidden;
+	border: 1px solid #FED2AA;
+	box-shadow: 0 0 3px #FED2AA;
+}
+.photoimage {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 50%;
+}
+.nickName-spreadShop {
+	margin-left: 20rpx;
+}
+.nickName {
+	font-size: 34rpx;
+	color: #616060;
+	padding-bottom: 6rpx;
+	height: 50rpx;
+}
+.spreadShop {
+	color: #B4B4B4;
+	padding-top: 6rpx;
+}
+.withdrawBtn {
+	color: #FFC17B;
+	height: 54rpx;
+	width: 120rpx;
+	border: 1px solid #FFC17B;
+	text-align: center;
+	border-radius: 40rpx;
+	position: absolute;
+	top: 42rpx;
+	right: 30rpx;
+}
+.withdrawBtn text {
+	font-size: 30rpx;
+	height: 54rpx;
+	line-height: 54rpx;
+}
+.accountInfo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 150rpx;
+	color: #5F5E5E;
+	text-align: center;
+}
+.accountInfo .infoItem {
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20rpx 0;
+}
+.infoItem .infoNumber {
+	color: #DA2F1A;
+	font-size: 34rpx;
+}
+.spreadInfo {
+	margin-top: 30rpx;
+	width: 100%;
+}
+.line {
+	width: 1px;
+	height: 100rpx;
+	background: #f5f5f5;
+}
+.item-line {
+	width: 100%;
+	display: flex;
+	margin-top: 1px;
+}
+.spreadItem {
+	text-align: center;
+	font-size: 30rpx;
+	color: #838383;
+	width: 33%;
+	background-color: #FFFFFF;
+	padding: 7% 0;
+	margin-right: 1px;
+}
+.spreadItem .item-tit {
+	height: 60rpx;
+	line-height: 60rpx;
+}
+.spreadItem image {
+	width: 90rpx;
+}
+

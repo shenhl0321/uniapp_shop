@@ -1,0 +1,22 @@
+module.exports.couponList = [{
+	couponTitle: '蛋黄酥无门槛优惠券10元',
+	couponId: 74,
+	couponKind: 0,
+	couponType: 0,
+	createTime: "2020-09-14 15:32:28",
+	effectiveDate: null,
+	endTime: "2020-10-22",
+	fullAmountReduce: 12,
+	pic: "https://images.51xeld.com/2020/07/,0609a95975574ed1aab7c4fcf3e6d9bd.jpg",
+	prodId: 864,
+	prodName: "花生酥糖原味160g袋装",
+	provideTime: null,
+	recordId: null,
+	reduceMoney: null,
+	shopId: 1,
+	startTime: "2020-09-17",
+	state: 0,
+	updateTime: null,
+	useState: null,
+	useTime: null
+}]

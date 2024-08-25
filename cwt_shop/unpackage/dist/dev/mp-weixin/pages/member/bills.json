@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-navi": "/components/custom-navi/custom-navi"
+  }
+}

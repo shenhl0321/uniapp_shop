@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pages/login/login.wxss */
+.main-page {
+	padding-top: 20%;
+}
+image {
+	display: block;
+	width: 260rpx;
+	height: 230rpx;
+	margin: auto;
+	margin-top: 100rpx;
+	border-radius: 50%;
+}
+view.msg {
+	font-size: 24rpx;
+	color: #666;
+	width: 100%;
+	text-align: center;
+	margin-top: 10rpx;
+}
+view.title {
+	font-size: 28rpx;
+	color: #333;
+	width: 100%;
+	text-align: center;
+	margin-top: 20rpx;
+}
+button {
+
+	width: 56%;
+	height: 70rpx;
+	line-height: 70rpx;
+	font-size: 30rpx;
+	color: #fff;
+	background: #FFBF77;
+	position: fixed;
+	bottom: 10%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+button::after {
+	border: 0;
+}
+.button-hover {
+	background-color: #FFBF77;
+	color: #fff;
+}
+

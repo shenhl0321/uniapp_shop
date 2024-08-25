@@ -1,0 +1,88 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/member/member-registe",
+    "pages/member/recharge",
+    "pages/groupbuy-details/groupbuy-details",
+    "pages/groupbuy-orderdetails/groupbuy-orderdetails",
+    "pages/groupbuy-submit/groupbuy-submit",
+    "pages/groupbuy/groupbuy",
+    "pages/poster/poster",
+    "pages/luckProd/luckProd",
+    "pages/category/category",
+    "pages/meituanTransfer/meituanTransfer",
+    "pages/shop-delivery/shop-delivery",
+    "pages/express-delivery/express-delivery",
+    "pages/user/user",
+    "pages/map/map",
+    "pages/editAddress/editAddress",
+    "pages/recent-news/recent-news",
+    "pages/news-detail/news-detail",
+    "pages/selfmention-address/selfmention-address",
+    "pages/show-license/show-license",
+    "pages/agreement/agreement",
+    "pages/refundList/refundList",
+    "pages/orderList/orderList",
+    "pages/prod/prod",
+    "pages/login/login",
+    "pages/delivery-address/delivery-address",
+    "pages/spread/spread",
+    "pages/promotion-prod/promotion-prod",
+    "pages/in-out-details/in-out-details",
+    "pages/all-invited-member/all-invited-member",
+    "pages/promotion-order/promotion-order",
+    "pages/withdraw-records/withdraw-records",
+    "pages/withdraw/withdraw",
+    "pages/refund/refund",
+    "pages/submit-order/submit-order",
+    "pages/coupon/coupon",
+    "pages/invitation/invitation",
+    "pages/shops/shops",
+    "pages/logs/logs",
+    "pages/search-page/search-page",
+    "pages/order-detail/order-detail",
+    "pages/pay-result/pay-result",
+    "pages/member/member",
+    "pages/member/coupon-used",
+    "pages/member/member-code",
+    "pages/member/member-info",
+    "pages/member/coupon-beforeWithdraw",
+    "pages/member/advertisement",
+    "pages/member/bills",
+    "pages/member/integral"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "彩味塔",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "custom": true,
+    "selectedColor": "#FEC073",
+    "color": "#b8b8b8",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/static/images/tabbar/homepage.png",
+        "selectedIconPath": "/static/images/tabbar/homepage-sel.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/static/images/tabbar/user.png",
+        "selectedIconPath": "/static/images/tabbar/user-sel.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,19 @@
+.back-img {
+  width: 100%;
+}
+.btn {
+  position: fixed;
+  bottom: 60rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 80rpx;
+  width: 320rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #FFAD4E;
+  background-color: #FFFFFF;
+  border: #FFAD4E;
+  border-radius: 50rpx;
+}
+

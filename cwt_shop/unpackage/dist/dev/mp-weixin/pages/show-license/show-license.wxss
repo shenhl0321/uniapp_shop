@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* pages/show-license/show-license.wxss */
+.title{
+  color: #666;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+  margin-left: 30rpx;
+  font-size: 26rpx;
+}
+.title::before{
+  content: " ";
+  display: inline-block;
+  width: 6rpx;
+  height: 28rpx;
+  border-right: 3px solid #FFAD4F;
+  margin-right: 8rpx;
+  vertical-align: middle;
+}
+

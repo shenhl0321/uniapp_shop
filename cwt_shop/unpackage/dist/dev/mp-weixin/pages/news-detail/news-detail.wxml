@@ -1,0 +1,1 @@
+<view><custom-navi vue-id="5b388cb0-1" naviData="{{naviData}}" bind:__l="__l" vue-slots="{{['default']}}">最新公告</custom-navi><view class="container"><view class="news-detail"><view class="news-detail-title">{{news.title}}</view><rich-text nodes="{{news.content}}"></rich-text></view></view></view>

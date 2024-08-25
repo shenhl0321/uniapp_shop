@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "navigation": "/components/navigation/navigation",
+    "shop-card": "/components/shopCard/shopCard"
+  }
+}
