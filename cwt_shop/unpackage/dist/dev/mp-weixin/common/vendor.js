@@ -11137,201 +11137,421 @@ var _default = {
     "pages/home/home": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100
+      "onReachBottomDistance": 100,
+      "usingComponents": {
+        "shop-card": "/components/shopCard/shopCard",
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {
+        "shop-card": "/components/shopCard/shopCard"
+      }
     },
     "pages/member/member-registe": {
-      "onReachBottomDistance": 0
+      "onReachBottomDistance": 0,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/member/recharge": {
-      "onReachBottomDistance": 0
+      "onReachBottomDistance": 0,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/groupbuy-details/groupbuy-details": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/groupbuy-orderdetails/groupbuy-orderdetails": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/groupbuy-submit/groupbuy-submit": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation",
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/groupbuy/groupbuy": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/poster/poster": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/luckProd/luckProd": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100
+      "onReachBottomDistance": 100,
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation",
+        "shop-card": "/components/shopCard/shopCard"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/category/category": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi",
+        "shop-cart-tab-toutiao": "/pages/category/shop-cart-tabbar-toutiao",
+        "shop-cart-tab-weixin": "/pages/category/shop-cart-tabbar-toutiao"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/meituanTransfer/meituanTransfer": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100
+      "onReachBottomDistance": 100,
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation",
+        "shop-card": "/components/shopCard/shopCard"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/shop-delivery/shop-delivery": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100
+      "onReachBottomDistance": 100,
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation",
+        "shop-card": "/components/shopCard/shopCard"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/express-delivery/express-delivery": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100
+      "onReachBottomDistance": 100,
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
-    "pages/user/user": {
+    "pages/user-new/user-new": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/map/map": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/editAddress/editAddress": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/recent-news/recent-news": {
       "backgroundTextStyle": "light",
       "navigationBarTitleText": "最新公告",
       "navigationBarTextStyle": "black",
-      "navigationBarBackgroundColor": "#fafafa"
+      "navigationBarBackgroundColor": "#fafafa",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/news-detail/news-detail": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100
+      "onReachBottomDistance": 100,
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/selfmention-address/selfmention-address": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/show-license/show-license": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/agreement/agreement": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/refundList/refundList": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/orderList/orderList": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/prod/prod": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi",
+        "shop-cart-tab-toutiao": "/pages/category/shop-cart-tabbar-toutiao"
+      },
+      "usingAutoImportComponents": {}
     },
-    "pages/login/login": {},
+    "pages/login/login": {
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
+    },
     "pages/delivery-address/delivery-address": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/spread/spread": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/promotion-prod/promotion-prod": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/in-out-details/in-out-details": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-naiv": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      }
     },
     "pages/all-invited-member/all-invited-member": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/promotion-order/promotion-order": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/withdraw-records/withdraw-records": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/withdraw/withdraw": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/refund/refund": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/submit-order/submit-order": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "coupon": "/components/coupon/coupon",
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/coupon/coupon": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/invitation/invitation": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/shops/shops": {
-      "onReachBottomDistance": 300
+      "onReachBottomDistance": 300,
+      "usingComponents": {
+        "prod": "/components/production/production"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/logs/logs": {
-      "navigationBarTitleText": "查看启动日志"
+      "navigationBarTitleText": "查看启动日志",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/search-page/search-page": {
       "backgroundTextStyle": "light",
       "navigationBarBackgroundColor": "#fff",
       "navigationBarTitleText": "搜索",
-      "navigationBarTextStyle": "black"
+      "navigationBarTextStyle": "black",
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/order-detail/order-detail": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/pay-result/pay-result": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white"
+      "navigationBarTextStyle": "white",
+      "usingComponents": {
+        "navigation": "/components/navigation/navigation"
+      },
+      "usingAutoImportComponents": {
+        "navigation": "/components/navigation/navigation"
+      }
     },
     "pages/member/member": {
-      "onReachBottomDistance": 0
+      "onReachBottomDistance": 0,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/member/coupon-used": {
-      "onReachBottomDistance": 0
+      "onReachBottomDistance": 0,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/member/member-code": {
-      "onReachBottomDistance": 0
+      "onReachBottomDistance": 0,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/member/member-info": {
-      "onReachBottomDistance": 0
+      "onReachBottomDistance": 0,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/member/coupon-beforeWithdraw": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {},
+      "usingAutoImportComponents": {}
     },
     "pages/member/advertisement": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/member/bills": {
       "navigationBarTitleText": "white",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     },
     "pages/member/integral": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false
+      "enablePullDownRefresh": false,
+      "usingComponents": {
+        "custom-navi": "/components/custom-navi/custom-navi"
+      },
+      "usingAutoImportComponents": {}
     }
   },
   "globalStyle": {
@@ -13573,7 +13793,7 @@ var Request = /*#__PURE__*/function () {
     var _this = this;
     (0, _classCallCheck2.default)(this, Request);
     this.config = {
-      baseUrl: 'http://47.102.157.175:28025',
+      baseUrl: 'http://8.130.48.59:8026',
       // 请求的根域名
       // 默认的请求头
       header: {},
@@ -14612,10 +14832,10 @@ exports.default = _default;
 /***/ (function(module, exports) {
 
 // let domain = "https://wx.xiaoerlangdang.com"; // 线上地址
-var domain = "http://47.102.157.175:28025"; //本地地址
+var domain = "http://8.130.48.59:8026"; //本地地址
 
 // var domain = "http://192.168.10.4:8086"  //本地地址
-var picDomain = 'http://47.102.157.175:28025'; //图片域名
+var picDomain = 'http://8.130.48.59:8026'; //图片域名
 
 exports.domain = domain; // exports.picDomain = picDomain;
 

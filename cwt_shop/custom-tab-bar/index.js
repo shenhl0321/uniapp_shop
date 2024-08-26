@@ -23,13 +23,13 @@ Component({
         "selectedIconPath": "/static/images/tabbar/homepage-sel.png"
       },
 	  {
-	    "pagePath": "/pages/home/home",
+	    "pagePath": "/pages/category/category",
 	    "text": "菜单",
 	    "iconPath": "/static/images/tabbar/category.png",
 	    "selectedIconPath": "/static/images/tabbar/category-sel.png"
 	  },
 	  {
-	    "pagePath": "/pages/home/home",
+	    "pagePath": "/pages/member/member-code",
 	    "iconPath": "/static/images/tabbar/99vipcode.png",
 		"selectedIconPath": "/static/images/tabbar/99vipcode.png",
 		"isSpecial": true
@@ -49,7 +49,7 @@ Component({
       //   "selectedIconPath": "/images/tabbar/category-sel.png"
       // },
       {
-        "pagePath": "/pages/user/user",
+        "pagePath": "/pages/user-new/user-new",
         "text": "我的",
         "iconPath": "/static/images/tabbar/user.png",
         "selectedIconPath": "/static/images/tabbar/user-sel.png"
@@ -75,7 +75,7 @@ Component({
   methods: {
     switchTab(e) {
       const data = e.currentTarget.dataset
-      // console.log(data);
+       console.log(data);
       const url = data.path
       
       

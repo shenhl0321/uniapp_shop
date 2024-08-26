@@ -1,16 +1,16 @@
 // #ifdef MP-WEIXIN
 // let domain = "https://wx.xiaoerlangdang.com"; // 线上地址
-var domain = "http://47.102.157.175:28025"  //本地地址
+var domain = "http://8.130.48.59:8026"  //本地地址
 // #endif
 // #ifdef H5
-var domain = "http://47.102.157.175:28025/wxapi"  //本地地址
+var domain = "http://8.130.48.59:8026/wxapi"  //本地地址
 // let domain = "https://www.xiaoerlangdang.com"; // 线上地址
 // #endif
 // #ifdef MP-TOUTIAO
-var domain = "http://47.102.157.175:28025/wxapi"  //本地地址
+var domain = "http://8.130.48.59:8026/wxapi"  //本地地址
 // #endif
 // var domain = "http://192.168.10.4:8086"  //本地地址
-let picDomain = 'http://47.102.157.175:28025';//图片域名
+let picDomain = 'http://8.130.48.59:8026';//图片域名
 
 exports.domain = domain; // exports.picDomain = picDomain;
 

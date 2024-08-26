@@ -1,7 +1,0 @@
-{
-  "navigationStyle": "custom",
-  "navigationBarTextStyle": "white",
-  "usingComponents": {
-    "custom-navi": "/components/custom-navi/custom-navi"
-  }
-}

@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<!--pages/newUser/newUser.wxml-->
-		<customNavi :naviData='naviData'>个人中心</customNavi>
+
 
 		<view class="user-content">
 
@@ -244,9 +244,6 @@
 </template>
 
 <script>
-	// pages/user/user.js
-	import customNavi from '@/components/custom-navi/custom-navi.vue'
-
 	export default {
 		data() {
 			return {
@@ -260,24 +257,17 @@
 				title: '个人中心',
 				friendSize: 0,
 				tuigaungOrder: 0,
-				naviData: {
-					customStyle: {
-						'background-image': 'linear-gradient(to right, #FFA93F , #FFB66A)'
-					},
-				},
 				selected: 0,
 				extensionState: "",
-				tuiguangOrder: ""
+				tuiguangOrder: "",
+				
 			};
 		},
 
-		components: {
-			customNavi
-		},
 		props: {},
 		computed: {
 			userInfo() {
-				console.log(this.$store.state.userInfo)
+				 
 				return this.$store.state.userInfo
 			}
 		},
@@ -286,7 +276,9 @@
 		/**
 		 * 生命周期函数--监听页面加载
 		 */
-		onLoad: function(options) {},
+		onLoad: function(options) {
+			
+		},
 
 		/**
 		 * 生命周期函数--监听页面显示

@@ -13,7 +13,7 @@
     "pages/meituanTransfer/meituanTransfer",
     "pages/shop-delivery/shop-delivery",
     "pages/express-delivery/express-delivery",
-    "pages/user/user",
+    "pages/user-new/user-new",
     "pages/map/map",
     "pages/editAddress/editAddress",
     "pages/recent-news/recent-news",
@@ -68,11 +68,23 @@
       {
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "/static/images/tabbar/homepage.png",
+        "iconPath": "static/images/tabbar/homepage.png",
         "selectedIconPath": "/static/images/tabbar/homepage-sel.png"
       },
       {
-        "pagePath": "pages/user/user",
+        "pagePath": "pages/category/category",
+        "text": "菜单",
+        "iconPath": "static/images/tabbar/category.png",
+        "selectedIconPath": "/static/images/tabbar/category-sel.png"
+      },
+      {
+        "pagePath": "pages/member/member-code",
+        "iconPath": "/static/images/tabbar/99vipcode.png",
+        "selectedIconPath": "/static/images/tabbar/99vipcode.png",
+        "isSpecial": true
+      },
+      {
+        "pagePath": "pages/user-new/user-new",
         "text": "我的",
         "iconPath": "/static/images/tabbar/user.png",
         "selectedIconPath": "/static/images/tabbar/user-sel.png"
