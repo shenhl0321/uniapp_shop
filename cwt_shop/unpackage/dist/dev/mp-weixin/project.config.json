@@ -21,17 +21,7 @@
   "libVersion": "",
   "appid": "wx33a7572beb3a17f1",
   "projectname": "彩味塔",
-  "condition": {
-    "miniprogram": {
-      "list": [
-        {
-          "name": "调试",
-          "pathName": "pages/home/home",
-          "query": ""
-        }
-      ]
-    }
-  },
+  "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2

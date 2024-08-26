@@ -418,7 +418,7 @@
 		<shopCartTabToutiao v-if='ifInToutiao'></shopCartTabToutiao>
 		
 		<!-- <miniPop :show='showMiniPop' @close='closeMiniPop'></miniPop> -->
-		
+		<tabbar index="1"></tabbar>
 	</view>
 </template>
 

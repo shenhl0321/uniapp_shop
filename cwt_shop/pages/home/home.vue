@@ -80,7 +80,7 @@
 				</view>
 			</view>
 		</button>
-
+		<tabbar index="0"></tabbar>
 	</view>
 </template>
 

@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/shopCard/shopCard":1,"components/custom-navi/custom-navi":1,"components/navigation/navigation":1,"pages/category/shop-cart-tabbar-toutiao":1,"components/coupon/coupon":1,"components/production/production":1};
+/******/ 		var cssChunks = {"components/shopCard/shopCard":1,"components/custom-navi/custom-navi":1,"components/tabbar/tabbar":1,"components/navigation/navigation":1,"pages/category/shop-cart-tabbar-toutiao":1,"components/coupon/coupon":1,"components/production/production":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/shopCard/shopCard":"components/shopCard/shopCard","components/custom-navi/custom-navi":"components/custom-navi/custom-navi","components/navigation/navigation":"components/navigation/navigation","pages/category/shop-cart-tabbar-toutiao":"pages/category/shop-cart-tabbar-toutiao","components/coupon/coupon":"components/coupon/coupon","components/production/production":"components/production/production"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/shopCard/shopCard":"components/shopCard/shopCard","components/custom-navi/custom-navi":"components/custom-navi/custom-navi","components/tabbar/tabbar":"components/tabbar/tabbar","components/navigation/navigation":"components/navigation/navigation","pages/category/shop-cart-tabbar-toutiao":"pages/category/shop-cart-tabbar-toutiao","components/coupon/coupon":"components/coupon/coupon","components/production/production":"components/production/production"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

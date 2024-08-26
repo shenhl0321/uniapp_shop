@@ -1,11 +1,5 @@
 {
-	"condition": { //编译模式配置，仅开发期间生效
-		"current": 0, //当前激活的编译模式（list 的索引项）  
-		"list": [{
-			"name": "调试", //模式名称  
-			"pathName": "pages/home/home" //启动页面，必选  
-		}]
-	},
+
 	"pages": [{
 			"path": "pages/home/home",
 			"style": {
@@ -13,7 +7,7 @@
 				"navigationBarTextStyle": "white",
 				"onReachBottomDistance": 100
 			}
-		},{
+		}, {
 			"path": "pages/member/member-registe",
 			"style": {
 				"onReachBottomDistance": 0
@@ -328,70 +322,68 @@
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/member/advertisement",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/bills",
+			"style": {
+				"navigationBarTitleText": "white",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/member/integral",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/99-vip/userVip",
+			"style": {
+				"navigationStyle": "custom"
+			}
 		}
-	    ,{
-            "path" : "pages/member/advertisement",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/member/bills",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "white",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/member/integral",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+	],
 	"tabBar": {
-		"custom": true,
+
 		"selectedColor": "#FEC073",
 		"color": "#b8b8b8",
-		"list": [
-			{
-			  "pagePath": "pages/home/home",
-			  "text": "首页",
-			  "iconPath": "static/images/tabbar/homepage.png",
-			  "selectedIconPath": "/static/images/tabbar/homepage-sel.png"
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "/static/images/tabbar/homepage.png",
+				"selectedIconPath": "/static/images/tabbar/homepage-sel.png"
 			},
 			{
-			  "pagePath": "pages/category/category",
-			  "text": "菜单",
-			  "iconPath": "static/images/tabbar/category.png",
-			  "selectedIconPath": "/static/images/tabbar/category-sel.png"
+				"pagePath": "pages/category/category",
+				"text": "菜单",
+				"iconPath": "/static/images/tabbar/category.png",
+				"selectedIconPath": "/static/images/tabbar/category-sel.png"
 			},
 			{
-			  "pagePath": "pages/member/member-code",
-			  "iconPath": "/static/images/tabbar/99vipcode.png",
-			 "selectedIconPath": "/static/images/tabbar/99vipcode.png",
-			 "isSpecial": true
-					
+				"pagePath": "pages/member/member-code",
+				"iconPath": "static/images/tabbar/99vipcode.png",
+				"selectedIconPath": "static/images/tabbar/99vipcode.png",
+				"text": "发布"
 			},
-			// {
-			//   "pagePath": "pages/home/home",
-			//   "text": "99VIP",
-			//   "iconPath": "/static/images/tabbar/99vip.png",
-			//   "selectedIconPath": "/static/images/tabbar/99vip-sel.png"
-			// },
 			{
-			  "pagePath": "pages/user-new/user-new",
-			  "text": "我的",
-			  "iconPath": "/static/images/tabbar/user.png",
-			  "selectedIconPath": "/static/images/tabbar/user-sel.png"
+				"pagePath": "pages/99-vip/userVip",
+				"text": "99VIP",
+				"iconPath": "/static/images/tabbar/99vip.png",
+				"selectedIconPath": "/static/images/tabbar/99vip-sel.png"
+			},
+			{
+				"pagePath": "pages/user-new/user-new",
+				"text": "我的",
+				"iconPath": "/static/images/tabbar/user.png",
+				"selectedIconPath": "/static/images/tabbar/user-sel.png"
 			}
 		]
 	},

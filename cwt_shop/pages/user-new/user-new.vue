@@ -39,6 +39,7 @@
 				</view>
 			</view>
 		</view>
+		<tabbar index="4"></tabbar>
 	</view>
 </template>
 

@@ -85,9 +85,9 @@ module.exports = _defineProperty, module.exports.__esModule = true, module.expor
 /***/ }),
 
 /***/ 111:
-/*!****************************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages/groupbuy/groupbuyInfoList.js ***!
-  \****************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/pages/groupbuy/groupbuyInfoList.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -159,9 +159,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 112:
-/*!*******************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/util.js ***!
-  \*******************************************************************/
+/*!***********************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/utils/util.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -234,9 +234,9 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 /***/ }),
 
 /***/ 137:
-/*!**********************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages/category/couponList.js ***!
-  \**********************************************************************************/
+/*!**************************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/pages/category/couponList.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9478,9 +9478,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 26:
-/*!****************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages.json ***!
-  \****************************************************************/
+/*!********************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/pages.json ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11119,9 +11119,9 @@ module.exports = _getPrototypeOf, module.exports.__esModule = true, module.expor
 /***/ }),
 
 /***/ 32:
-/*!*********************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages.json?{"type":"style"} ***!
-  \*********************************************************************************/
+/*!*************************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/pages.json?{"type":"style"} ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11137,421 +11137,204 @@ var _default = {
     "pages/home/home": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100,
-      "usingComponents": {
-        "shop-card": "/components/shopCard/shopCard",
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {
-        "shop-card": "/components/shopCard/shopCard"
-      }
+      "onReachBottomDistance": 100
     },
     "pages/member/member-registe": {
-      "onReachBottomDistance": 0,
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 0
     },
     "pages/member/recharge": {
-      "onReachBottomDistance": 0,
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 0
     },
     "pages/groupbuy-details/groupbuy-details": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/groupbuy-orderdetails/groupbuy-orderdetails": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/groupbuy-submit/groupbuy-submit": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation",
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/groupbuy/groupbuy": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/poster/poster": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/luckProd/luckProd": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100,
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation",
-        "shop-card": "/components/shopCard/shopCard"
-      },
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 100
     },
     "pages/category/category": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi",
-        "shop-cart-tab-toutiao": "/pages/category/shop-cart-tabbar-toutiao",
-        "shop-cart-tab-weixin": "/pages/category/shop-cart-tabbar-toutiao"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/meituanTransfer/meituanTransfer": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100,
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation",
-        "shop-card": "/components/shopCard/shopCard"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "onReachBottomDistance": 100
     },
     "pages/shop-delivery/shop-delivery": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100,
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation",
-        "shop-card": "/components/shopCard/shopCard"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "onReachBottomDistance": 100
     },
     "pages/express-delivery/express-delivery": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100,
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 100
     },
     "pages/user-new/user-new": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/map/map": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/editAddress/editAddress": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/recent-news/recent-news": {
       "backgroundTextStyle": "light",
       "navigationBarTitleText": "最新公告",
       "navigationBarTextStyle": "black",
-      "navigationBarBackgroundColor": "#fafafa",
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "navigationBarBackgroundColor": "#fafafa"
     },
     "pages/news-detail/news-detail": {
       "navigationStyle": "custom",
       "navigationBarTextStyle": "white",
-      "onReachBottomDistance": 100,
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 100
     },
     "pages/selfmention-address/selfmention-address": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/show-license/show-license": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/agreement/agreement": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/refundList/refundList": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/orderList/orderList": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/prod/prod": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi",
-        "shop-cart-tab-toutiao": "/pages/category/shop-cart-tabbar-toutiao"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
-    "pages/login/login": {
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
-    },
+    "pages/login/login": {},
     "pages/delivery-address/delivery-address": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/spread/spread": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/promotion-prod/promotion-prod": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/in-out-details/in-out-details": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-naiv": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/all-invited-member/all-invited-member": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/promotion-order/promotion-order": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/withdraw-records/withdraw-records": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/withdraw/withdraw": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/refund/refund": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/submit-order/submit-order": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "coupon": "/components/coupon/coupon",
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/coupon/coupon": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/invitation/invitation": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/shops/shops": {
-      "onReachBottomDistance": 300,
-      "usingComponents": {
-        "prod": "/components/production/production"
-      },
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 300
     },
     "pages/logs/logs": {
-      "navigationBarTitleText": "查看启动日志",
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "navigationBarTitleText": "查看启动日志"
     },
     "pages/search-page/search-page": {
       "backgroundTextStyle": "light",
       "navigationBarBackgroundColor": "#fff",
       "navigationBarTitleText": "搜索",
-      "navigationBarTextStyle": "black",
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "black"
     },
     "pages/order-detail/order-detail": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "navigationBarTextStyle": "white"
     },
     "pages/pay-result/pay-result": {
       "navigationStyle": "custom",
-      "navigationBarTextStyle": "white",
-      "usingComponents": {
-        "navigation": "/components/navigation/navigation"
-      },
-      "usingAutoImportComponents": {
-        "navigation": "/components/navigation/navigation"
-      }
+      "navigationBarTextStyle": "white"
     },
     "pages/member/member": {
-      "onReachBottomDistance": 0,
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 0
     },
     "pages/member/coupon-used": {
-      "onReachBottomDistance": 0,
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 0
     },
     "pages/member/member-code": {
-      "onReachBottomDistance": 0,
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 0
     },
     "pages/member/member-info": {
-      "onReachBottomDistance": 0,
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "onReachBottomDistance": 0
     },
     "pages/member/coupon-beforeWithdraw": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false,
-      "usingComponents": {},
-      "usingAutoImportComponents": {}
+      "enablePullDownRefresh": false
     },
     "pages/member/advertisement": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false,
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "enablePullDownRefresh": false
     },
     "pages/member/bills": {
       "navigationBarTitleText": "white",
-      "enablePullDownRefresh": false,
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "enablePullDownRefresh": false
     },
     "pages/member/integral": {
       "navigationBarTitleText": "",
-      "enablePullDownRefresh": false,
-      "usingComponents": {
-        "custom-navi": "/components/custom-navi/custom-navi"
-      },
-      "usingAutoImportComponents": {}
+      "enablePullDownRefresh": false
+    },
+    "pages/99-vip/userVip": {
+      "navigationStyle": "custom"
     }
   },
   "globalStyle": {
@@ -11700,9 +11483,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 39:
-/*!********************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/store/index.js ***!
-  \********************************************************************/
+/*!************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/store/index.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13480,9 +13263,9 @@ module.exports = index_cjs;
 /***/ }),
 
 /***/ 44:
-/*!***************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/store/modules/shop.js ***!
-  \***************************************************************************/
+/*!*******************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/store/modules/shop.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13695,9 +13478,9 @@ module.exports = {
 /***/ }),
 
 /***/ 45:
-/*!*******************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/http/index.js ***!
-  \*******************************************************************/
+/*!***********************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/http/index.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13727,9 +13510,9 @@ var install = function install(Vue) {
 /***/ }),
 
 /***/ 450:
-/*!**************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages/member/mock.js ***!
-  \**************************************************************************/
+/*!******************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/pages/member/mock.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13767,9 +13550,9 @@ exports.bills = bills;
 /***/ }),
 
 /***/ 46:
-/*!******************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/http/http.js ***!
-  \******************************************************************/
+/*!**********************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/http/http.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14067,9 +13850,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 47:
-/*!************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/deepMerge.js ***!
-  \************************************************************************/
+/*!****************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/utils/deepMerge.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14117,9 +13900,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 48:
-/*!************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/deepClone.js ***!
-  \************************************************************************/
+/*!****************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/utils/deepClone.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14159,9 +13942,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 49:
-/*!*******************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/test.js ***!
-  \*******************************************************************/
+/*!***********************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/utils/test.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14426,9 +14209,9 @@ module.exports = _slicedToArray, module.exports.__esModule = true, module.export
 /***/ }),
 
 /***/ 50:
-/*!******************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/store/modules/address.js ***!
-  \******************************************************************************/
+/*!**********************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/store/modules/address.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14480,9 +14263,9 @@ module.exports = {
 /***/ }),
 
 /***/ 51:
-/*!********************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/index.js ***!
-  \********************************************************************/
+/*!************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/utils/index.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14516,9 +14299,9 @@ exports.utils = utils;
 /***/ }),
 
 /***/ 52:
-/*!********************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/mixin.js ***!
-  \********************************************************************/
+/*!************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/utils/mixin.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14639,9 +14422,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 53:
-/*!*********************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/number.js ***!
-  \*********************************************************************/
+/*!*************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/utils/number.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14733,9 +14516,9 @@ module.exports = {
 /***/ }),
 
 /***/ 54:
-/*!******************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/http/http.interceptor.js ***!
-  \******************************************************************************/
+/*!**********************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/http/http.interceptor.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14825,9 +14608,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 55:
-/*!***************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/config.js ***!
-  \***************************************************************/
+/*!*******************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/config.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14863,9 +14646,9 @@ module.exports = _arrayWithHoles, module.exports.__esModule = true, module.expor
 /***/ }),
 
 /***/ 62:
-/*!***************************************************************************************************!*\
-  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/qqmap-wx-jssdk1.2/qqmap-wx-jssdk.min.js ***!
-  \***************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /Users/hongliangshen/Desktop/uniapp_shop/cwt_shop/utils/qqmap-wx-jssdk1.2/qqmap-wx-jssdk.min.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

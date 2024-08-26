@@ -1,4 +1,6 @@
 {
   "onReachBottomDistance": 0,
-  "usingComponents": {}
+  "usingComponents": {
+    "tabbar": "/components/tabbar/tabbar"
+  }
 }

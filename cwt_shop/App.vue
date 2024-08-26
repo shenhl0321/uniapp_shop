@@ -2,11 +2,17 @@
 	export default {
 		onLaunch() {
 			this.$store.commit('shop/updateShopId', 1)
-			
+			uni.onTabBarMidButtonTap(() => {
+				uni.navigateTo({
+					url: '/pages/member/member-code',
+				})
+			})
+
+
 			const updateManager = wx.getUpdateManager()
-			updateManager.onCheckForUpdate(function (res) {
-			  // 请求完新版本信息的回调
-			  console.log(res.hasUpdate)
+			updateManager.onCheckForUpdate(function(res) {
+				// 请求完新版本信息的回调
+				console.log(res.hasUpdate)
 				// console.log(res)
 				// uni.showToast({
 				// 	icon: 'none',
@@ -14,31 +20,31 @@
 				// 	duration: 3000
 				// })
 			})
-			updateManager.onUpdateReady(function () {
-			  wx.showModal({
-			    title: '更新提示',
-			    content: '新版本已经准备好，是否重启应用？',
-			    success(res) {
-			      if (res.confirm) {
-			        // 新的版本已经下载好，调用 applyUpdate 应用新版本并重启
-			        updateManager.applyUpdate()
-			      }
-			    }
-			  })
+			updateManager.onUpdateReady(function() {
+				wx.showModal({
+					title: '更新提示',
+					content: '新版本已经准备好，是否重启应用？',
+					success(res) {
+						if (res.confirm) {
+							// 新的版本已经下载好，调用 applyUpdate 应用新版本并重启
+							updateManager.applyUpdate()
+						}
+					}
+				})
 			})
-			
+
 			//#ifdef H5
 			let res
 			//H5环境中，判断是否为微信内部环境，
-			let _ua = navigator?navigator.userAgent.toLowerCase() : ''
+			let _ua = navigator ? navigator.userAgent.toLowerCase() : ''
 			if (_ua.match(/MicroMessenger/i) == "micromessenger") {
-			// if (false) {
+				// if (false) {
 				//当前环境为微信环境
 				this.$store.commit('updateIfOutSide', false)
 				let loginState = this.$route.query.state || false //登陆状态  login:从公众号入口进入并登陆 refresh:刷新页面
 				let loginMsg = this.$route.query.code || false
 				//判断内存中存入的code值是否等于当前code，如果相等，则表示当前操作为刷新页面，不需要重新登陆，否则为登陆操作
-				if (loginState=='login' && uni.getStorageSync('loginCode') !== loginMsg) {
+				if (loginState == 'login' && uni.getStorageSync('loginCode') !== loginMsg) {
 					res = this.$request.login(loginMsg, false)
 				} else {
 					loginMsg = uni.getStorageSync('token')
@@ -88,7 +94,7 @@
 			// 购物车商品数量
 			totalCartCount: 0,
 			//shopId
-			shopId: 1 
+			shopId: 1
 		},
 		methods: {}
 	};

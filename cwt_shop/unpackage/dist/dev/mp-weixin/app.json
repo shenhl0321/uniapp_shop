@@ -49,7 +49,8 @@
     "pages/member/coupon-beforeWithdraw",
     "pages/member/advertisement",
     "pages/member/bills",
-    "pages/member/integral"
+    "pages/member/integral",
+    "pages/99-vip/userVip"
   ],
   "subPackages": [],
   "window": {
@@ -61,27 +62,32 @@
     "enablePullDownRefresh": true
   },
   "tabBar": {
-    "custom": true,
     "selectedColor": "#FEC073",
     "color": "#b8b8b8",
     "list": [
       {
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "static/images/tabbar/homepage.png",
+        "iconPath": "/static/images/tabbar/homepage.png",
         "selectedIconPath": "/static/images/tabbar/homepage-sel.png"
       },
       {
         "pagePath": "pages/category/category",
         "text": "菜单",
-        "iconPath": "static/images/tabbar/category.png",
+        "iconPath": "/static/images/tabbar/category.png",
         "selectedIconPath": "/static/images/tabbar/category-sel.png"
       },
       {
         "pagePath": "pages/member/member-code",
-        "iconPath": "/static/images/tabbar/99vipcode.png",
-        "selectedIconPath": "/static/images/tabbar/99vipcode.png",
-        "isSpecial": true
+        "iconPath": "static/images/tabbar/99vipcode.png",
+        "selectedIconPath": "static/images/tabbar/99vipcode.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/99-vip/userVip",
+        "text": "99VIP",
+        "iconPath": "/static/images/tabbar/99vip.png",
+        "selectedIconPath": "/static/images/tabbar/99vip-sel.png"
       },
       {
         "pagePath": "pages/user-new/user-new",

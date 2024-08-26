@@ -30,6 +30,8 @@
 			<image :src="codes.QrCode" mode="aspectFit"></image>
 			<text>请将会员码展示给收营员~</text>
 		</view>
+		
+		<tabbar index="2"></tabbar>
 	</view>
 </template>
 
