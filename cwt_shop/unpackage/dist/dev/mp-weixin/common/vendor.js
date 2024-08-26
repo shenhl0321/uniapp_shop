@@ -85,9 +85,9 @@ module.exports = _defineProperty, module.exports.__esModule = true, module.expor
 /***/ }),
 
 /***/ 111:
-/*!******************************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/pages/groupbuy/groupbuyInfoList.js ***!
-  \******************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages/groupbuy/groupbuyInfoList.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -159,9 +159,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 112:
-/*!*********************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/utils/util.js ***!
-  \*********************************************************************/
+/*!*******************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/util.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -234,9 +234,9 @@ module.exports = _typeof, module.exports.__esModule = true, module.exports["defa
 /***/ }),
 
 /***/ 137:
-/*!************************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/pages/category/couponList.js ***!
-  \************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages/category/couponList.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9478,9 +9478,9 @@ internalMixin(Vue);
 /***/ }),
 
 /***/ 26:
-/*!******************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/pages.json ***!
-  \******************************************************************/
+/*!****************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages.json ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -11119,9 +11119,9 @@ module.exports = _getPrototypeOf, module.exports.__esModule = true, module.expor
 /***/ }),
 
 /***/ 32:
-/*!***********************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/pages.json?{"type":"style"} ***!
-  \***********************************************************************************/
+/*!*********************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages.json?{"type":"style"} ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11480,9 +11480,9 @@ function normalizeComponent (
 /***/ }),
 
 /***/ 39:
-/*!**********************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/store/index.js ***!
-  \**********************************************************************/
+/*!********************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/store/index.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13260,9 +13260,9 @@ module.exports = index_cjs;
 /***/ }),
 
 /***/ 44:
-/*!*****************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/store/modules/shop.js ***!
-  \*****************************************************************************/
+/*!***************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/store/modules/shop.js ***!
+  \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13475,9 +13475,9 @@ module.exports = {
 /***/ }),
 
 /***/ 45:
-/*!*********************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/http/index.js ***!
-  \*********************************************************************/
+/*!*******************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/http/index.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13507,9 +13507,9 @@ var install = function install(Vue) {
 /***/ }),
 
 /***/ 450:
-/*!****************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/pages/member/mock.js ***!
-  \****************************************************************************/
+/*!**************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/pages/member/mock.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13547,9 +13547,9 @@ exports.bills = bills;
 /***/ }),
 
 /***/ 46:
-/*!********************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/http/http.js ***!
-  \********************************************************************/
+/*!******************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/http/http.js ***!
+  \******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13573,7 +13573,7 @@ var Request = /*#__PURE__*/function () {
     var _this = this;
     (0, _classCallCheck2.default)(this, Request);
     this.config = {
-      baseUrl: '',
+      baseUrl: 'http://47.102.157.175:28025',
       // 请求的根域名
       // 默认的请求头
       header: {},
@@ -13847,9 +13847,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 47:
-/*!**************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/utils/deepMerge.js ***!
-  \**************************************************************************/
+/*!************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/deepMerge.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13897,9 +13897,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 48:
-/*!**************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/utils/deepClone.js ***!
-  \**************************************************************************/
+/*!************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/deepClone.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13939,9 +13939,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 49:
-/*!*********************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/utils/test.js ***!
-  \*********************************************************************/
+/*!*******************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/test.js ***!
+  \*******************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14206,9 +14206,9 @@ module.exports = _slicedToArray, module.exports.__esModule = true, module.export
 /***/ }),
 
 /***/ 50:
-/*!********************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/store/modules/address.js ***!
-  \********************************************************************************/
+/*!******************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/store/modules/address.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14260,9 +14260,9 @@ module.exports = {
 /***/ }),
 
 /***/ 51:
-/*!**********************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/utils/index.js ***!
-  \**********************************************************************/
+/*!********************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/index.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14296,9 +14296,9 @@ exports.utils = utils;
 /***/ }),
 
 /***/ 52:
-/*!**********************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/utils/mixin.js ***!
-  \**********************************************************************/
+/*!********************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/mixin.js ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14419,9 +14419,9 @@ exports.default = _default;
 /***/ }),
 
 /***/ 53:
-/*!***********************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/utils/number.js ***!
-  \***********************************************************************/
+/*!*********************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/number.js ***!
+  \*********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14513,9 +14513,9 @@ module.exports = {
 /***/ }),
 
 /***/ 54:
-/*!********************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/http/http.interceptor.js ***!
-  \********************************************************************************/
+/*!******************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/http/http.interceptor.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14605,17 +14605,17 @@ exports.default = _default;
 /***/ }),
 
 /***/ 55:
-/*!*****************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/config.js ***!
-  \*****************************************************************/
+/*!***************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/config.js ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 // let domain = "https://wx.xiaoerlangdang.com"; // 线上地址
-var domain = "http://192.168.1.19:8026"; //本地地址
+var domain = "http://47.102.157.175:28025"; //本地地址
 
 // var domain = "http://192.168.10.4:8086"  //本地地址
-var picDomain = 'http://192.168.1.19:8026'; //图片域名
+var picDomain = 'http://47.102.157.175:28025'; //图片域名
 
 exports.domain = domain; // exports.picDomain = picDomain;
 
@@ -14643,9 +14643,9 @@ module.exports = _arrayWithHoles, module.exports.__esModule = true, module.expor
 /***/ }),
 
 /***/ 62:
-/*!*****************************************************************************************************!*\
-  !*** /Users/hongliangshen/Desktop/cwt-cashier-wechat/utils/qqmap-wx-jssdk1.2/qqmap-wx-jssdk.min.js ***!
-  \*****************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /Users/shenhl/Desktop/外包/uniapp_shop/cwt_shop/utils/qqmap-wx-jssdk1.2/qqmap-wx-jssdk.min.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

@@ -148,7 +148,7 @@
             "https" : false,
             "proxy" : {
                 "/api" : {
-                    "target" : "http://192.168.1.19:8026", //请求的目标域名
+                    "target" : "http://8.130.48.59:8025", //请求的目标域名
                     "changeOrigin" : true,
                     "secure" : false,
                     "pathRewrite" : {
@@ -161,7 +161,7 @@
         "router" : {
             "mode" : "history"
         },
-        "domain" : "http://192.168.1.19:8026",
+        "domain" : "http://8.130.48.59:8025",
         "title" : "彩味塔",
         "uniStatistics" : {
             "enable" : false
